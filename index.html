@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charted accountant</title>
+    <link rel="stylesheet" href="./inquire.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrer9policy="no-referrer" />
+    <style>
+        #imageloader {
+            border-radius: 50%;
+            margin-top: 200px;
+        }
+
+        #website {
+            display: none;
+        }
+
+        #model {
+            display: none;
+            position: fixed;
+            top: 120px;
+            left: 225px;
+            z-index: 5555; background-color: aqua;
+        }
+    </style>
+</head>
+
+<body id="b" onload="loader()">
+
+    <section id="model">
+        <button id="hide" onclick="hide()">x</button>
+        <h2>Inquiry Form</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <br>
+                <input style="padding:20px 200px 50px 140px;" id="message" name="message" required>
+            </div>
+            <div class="form-group">
+                <center><input type="submit" value="Submit"></center>
+            </div>
+        </form>
+
+    </section>
+
+
+    <center> <img id="imageloader"
+            src="https://t3.ftcdn.net/jpg/03/42/82/22/360_F_342822216_hOZjM43UJHHXzzooo0OxvdH7jjBPRUry.jpg"
+            width="200px" alt=""></center>
+
+    <section id="website">
+        <!-- =============================================================enquire now========================================= -->
+        <div id="pos">
+            <center> <a href="./inquire.html">ENQUIRE NOW</a></center>
+        </div>
+        <!-- ============================================================================================================== -->
+
+        <!-- ====================================================================up top============================================== -->
+        <section id="up">
+            &nbsp; &nbsp; &nbsp; <div id="cornor"> <img src="https://bcshettyco.com/new-assets/images/logo.svg"
+                    width="210px" alt=""></div>
+
+            <div id="right">
+                <label for="search">
+                    <input type="search" placeholder="Search"> &nbsp;&nbsp;&nbsp;
+                </label>
+            </div>
+
+            <div> <img src="https://bcshettyco.com/new-assets/images/mgi-logo.png" width="200px" alt="">
+            </div>
+        </section>
+        <!-- -============================================================================================================================ -->
+        <input type="checkbox" id="cha" hidden>
+        <label for="cha"><i id="bars" class="fa fa-bars"></i></label>
+
+        <ul class="mainnav">
+            <li>
+                <ul>
+                    <li><a href="#about">ABOUT US</a></li> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <li><a href="#services">SERVICES</a> </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <li><a href="">INTERNATIONAL</a> </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <li><a href="#latest">NEWS & RESOURCES</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <li><a href="">CARRER</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <li><a href="#contact">CONTACT US</a> </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </ul>
+            </li>
+            <li style="color:blue;">
+                <a href=""><i class="fa-solid fa-phone">+917389834002</i></a>
+            </li>
+            <li style="border: 1px solid white;border-radius: 4px; padding: 4px;color:blue;">
+                <a style="list-style-type: none;  text-decoration: none;" href="">PAYMENT</a>
+            </li>
+            <li style="border: 1px solid white; border-radius: 4px; padding: 4px;color:blue;">
+                <a style="list-style-type: none; text-decoration: none;" href="">CLIENT LOGIN</a>
+            </li>
+        </ul>
+
+
+
+
+        <section id="image">
+            <br>
+            <br>
+
+            <br>
+
+            <br>
+            <br>
+            <br>
+
+            <br>
+
+            <center>
+                <b>
+                    <div>WELCOME TO<br> ABHIMANYU MISHRA & CO. <br>CHARTED ACCOUNTANT WAIDHAN
+                </b> </div>
+            </center>
+
+        </section>
+
+        <!-- ==========================================================about us ================================================== -->
+
+        <section id="about">
+            <div>
+                <h2> ABOUT US</h2>
+                <h2 style="font-size: 48px;"> <b>CHARTERED <br> ACCOUNTANTS<br> IN BANGALORE</b></h2>
+
+                <p> BC Shetty & Co. comes with a team of highly dedicated chartered accountants in<br> Bangalore.
+                    We are committed to offering top-notch financial and business solutions. We<br> are a full
+                    service accounting firm. Services we offer include, accounting and tax planning,<br> Compliance
+                    outsourcing, helping setup a foreign subsidiary company in India, and many<br> more. As one of the
+                    well-known CA firms in Bangalore, we aim to allow clients achieve <br>financial success and grow
+                    quickly by absorbing all the compliance burden and letting<br> the business owner concentrate on
+                    core business operations.
+
+                    So, if you are looking for stress free accounting,<br> compliances and auditing services in
+                    Bangalore,
+                    you may reach out to BC Shetty & Co and opt for their services.</p>
+            </div>
+            <div>
+                <br>
+                <br>
+                <br>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/voHfwCCkqfs?si=UQ1EqhXQiocXzLR2"
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;
+             web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <!-- ------------==========================================section 3============================================================ -->
+
+        <center>
+            <h2 style="color: rgba(48, 70, 196, 0.812);">EXPLORE OUR SERVICES</h2>
+        </center>
+        <section id="services" style="align-items: center;">
+            <div id="first">
+                <div><img src="https://bcshettyco.com/new-assets/images/advisory.png" width="300px"></div>
+                <div><img src="https://bcshettyco.com/new-assets/images/auditing.png" width="300px" alt=""></div>
+                <div><img src="https://bcshettyco.com/new-assets/images/business.png" width="300px" alt=""></div>
+
+                <div><img src="https://bcshettyco.com/new-assets/images/transfer-pricing.png" width="300px" alt="">
+                </div>
+                <div><img src="https://bcshettyco.com/new-assets/images/tax.png" width="300px" alt=""></div>
+                <div><img src="https://bcshettyco.com/new-assets/images/transfer-pricing.png" width="300px" alt="">
+                </div>
+            </div>
+
+
+        </section>
+        <!-- ==========================================================industries we serve== section 4=============================== -->
+        <section id="serve">
+            <center>
+                <h2 class="we" style="color: white;"> INDUSTRIES WE SERVE </h2><br>
+            </center>
+
+
+            <div id="serve1" style="justify-content: space-evenly;">
+
+                <div id="one" style="  border: 10px solid white; background-color: white; border-radius: 20px; ">
+                    <img src="https://bcshettyco.com/new-assets/images/we_serve_slider-img-1.png" width="250px"
+                        alt=""><br>
+                    <center>
+                        <div id="hotel" style="font-size: 20px;">HOTEL</div>
+                    </center>
+                </div>
+                <div id=" two" style="  border: 10px solid white; background-color: white; border-radius: 20px;">
+                    <img src="https://bcshettyco.com/new-assets/images/we_serve_slider-img-2.png" width="250px"
+                        alt=""><br>
+                    <center>
+                        <div id="It" style="font-size: 20px;">IT INDUSTRY </div>
+                    </center>
+                </div>
+                <div id="three" style="  border: 10px solid white; background-color: white; border-radius: 20px;">
+                    <img src="https://bcshettyco.com/new-assets/images/we_serve_slider-img-3.png" width="250px"
+                        alt=""><br>
+                    <center>
+                        <div id="education" style="font-size: 20px;">EDUCATION </div>
+                    </center>
+                </div>
+                <div id="four" style="border-radius: 10px; background-color: white; margin-bottom: 20px;">
+                    <img src="https://bcshettyco.com/new-assets/images/we_serve_slider-img-4.png" width="250px"
+                        alt=""><br>
+                    <center>
+                        <div id="stock" style="font-size: 20px;">STOCK TRADING </div>
+                    </center>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- =======================================================================  section 5===================================== -->
+        <section id="Technology">
+            <center>
+                <h2 style="color:rgba(48, 70, 196, 0.812);"> TECHNOLOGY WE USE TO DELEVER SERVICE</h2>
+            </center> <br>
+
+            <section id="div1">
+                <center><img src="https://bcshettyco.com/new-assets/images/mgi-logo.png" width="150px" alt="">
+                    <img src="https://bcshettyco.com/new-assets/images/other-tool-1.png" width="150px" alt="">
+                    <img src="https://bcshettyco.com/new-assets/images/other-tool-2.png" width="150px" alt="">
+                    <img src="https://bcshettyco.com/new-assets/images/other-tool-3.png" width="150px" alt="">
+                    <img src="https://bcshettyco.com/new-assets/images/other-tool-4.png" width="150px" alt="">
+                </center>
+            </section>
+        </section>
+
+
+        <!-- ================================================================section 6  (tesemonial)=============================== -->
+        <section id="tes">
+            <center>
+                <h3 style="color:rgba(48, 70, 196, 0.812); "> TESTIMONIALS</h3>
+            </center> <br>
+            <br>
+            <br>
+
+            <div id="all">
+                <div>
+                    <center><img src="https://bcshettyco.com/new-assets/images/profile.png" width="75px" alt="">
+                    </center>
+                    <p>The best ever financial service providers<br>
+                        <center> I have met in life.<br></center>
+                        <br>
+                        <br>
+
+                        <center style="color:rgba(48, 70, 196, 0.812) ;"> " A White field Corporate"</center>
+                    </p>
+                </div>
+                <div>
+                    <center> <img src="https://bcshettyco.com/new-assets/images/profile.png" width="75px" alt="">
+                    </center>
+                    <p>The best ever financial service providers,<br>
+                        <center>I have met in life.<br></center>
+                        <br>
+                        <br>
+                        <center style="color:rgba(48, 70, 196, 0.812) ;"> "A private business group in maysore"</center>
+                    </p>
+                </div>
+                <div>
+                    <center><img src="https://bcshettyco.com/new-assets/images/profile.png" width="75px" alt="">
+                    </center>
+                    <p>The best ever financial service providers<br>
+                        <center> I have met in life.<br></center>
+                        <br>
+                        <br>
+                        <center style="color:rgba(48, 70, 196, 0.812) ;"> "CFO of fortune of 500 countries"</center>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================================latest news================================================ -->
+        <section style="background-color: rgba(48, 70, 196, 0.812); padding: 50px 0px 0px 0px;">
+            <center>
+                <div style="font-size: 28px;color: white;">LATESEST NEWSLETTER</div><br>
+                <br>
+                <br>
+
+                <div style="color: white;"> Read and Improve your knowledge from our Newsletters.</div>
+            </center>
+        </section>
+        <section id="latest">
+            <div id="firstimg" style="border: 1px solid white; background-color: white; padding: 20px 30px 20px 30px;">
+                <img src="https://bcshettyco.com/img/2024/DUTIES-AND-RESPONSIBILITIES-OF-A-DIRECTOR-IN.png"
+                    width="300px" alt="">
+                <p> TAX HOLIDAYS FOR STARTUPS<br> (SECTION 80 IAC OF INCOME TAX ACT)</p><br>
+
+                <p> IN THE DYNAMIC LANDSCAPE OF<br> ENTERPENURSHIP</p>
+                <div style="display: flex; justify-content: space-evenly; align-items: center;">
+                    <div
+                        style="border:1px solid white; width: 80px; padding: 10px 10px 10px 10px; background-color: blue;color: white;">
+                        Read More</div>
+                    <div>ADMIN |18 April 2024</div>
+                </div>
+            </div>
+            <div id="secondimg" style="border: 1px solid white; background-color: white; padding: 20px 30px 20px 30px;">
+                <img src="https://bcshettyco.com/img/2024/compliance-requirements-banner.png" width="320px" alt="">
+                <p> TAX HOLIDAYS FOR STARTUPS <br>(SECTION 80 IAC OF INCOME TAX ACT)</p><br>
+
+                <p>IN THE DYNAMIC LANDSCAPE OF<br> ENTERPENURSHIP</p>
+                <div style="display: flex; justify-content: space-evenly;  align-items: center;">
+                    <div
+                        style="border:1px solid white; width: 80px; padding: 10px 10px 10px 10px; background-color: blue;color: white; ">
+                        Read More</div>
+                    <div>ADMIN |20 May 2024</div>
+                </div>
+            </div>
+            <div id="thirdimg" style="border: 1px solid white; background-color: white; padding: 20px 30px 20px 30px;">
+                <img src="https://bcshettyco.com/img/2024/tax-holiday-for-startup-banner.png" width="300px" alt="">
+                <p> TAX HOLIDAYS FOR STARTUPS <br> (SECTION 80 IAC OF INCOME TAX ACT)</p><br>
+                <p>IN THE DYNAMIC LANDSCAPE OF<br> ENTERPENURSHIP</p>
+                <div style="display: flex; justify-content: space-evenly; align-items: center;">
+                    <div
+                        style="border:1px solid white; width: 80px; padding: 10px 10px 10px 10px; background-color: blue;color: white;">
+                        Read More</div>
+                    <div>ADMIN |18 June 2024</div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- ===============================================AFFILIATION============================================== -->
+        <section id="affi">
+            <center style="color:rgba(48, 70, 196, 0.812) ;">
+                <h2> AFFILIATION </h2>
+            </center>
+
+            <center>
+                <div class="af">
+                    <img src="https://bcshettyco.com/new-assets/images/associate-1.png" width="150px" alt="">
+                    <img src="https://bcshettyco.com/new-assets/images/associate-2.png" width="150px" alt="">
+                    <img src="https://bcshettyco.com/new-assets/images/associate-3.png" width="150px" alt="">
+                    <img src="https://bcshettyco.com/new-assets/images/associate-4.png" width="150px" alt="">
+                </div>
+            </center>
+
+        </section>
+        <!-- ============================================frequent=========================================================================== -->
+        <section id="freq">
+            <center style="color: white;">
+                <div style="font-size: 32px;">FREQUENTLY ASKED QUESTION </div>
+            </center> <br>
+            <br>
+            <br>
+            <br>
+            <div>
+                <div id="four" style="color: white;">Can a CA Firm provide accounting services?</div>
+                <div id="five" style="color: white;"> Can BC Shetty & Co help in planning and saving taxes? </div>
+                <div id="six" style="color: white;">Can B C Shetty & Co advise on managing cash flows better? </div>
+                <div id="seven" style="color: white;">Can BC Shetty & Co advise on profit improvement strategies? </div>
+                <div id="eight" style="color: white;"> Can BC Shetty & Co help in raising finance through loans or
+                    equity?
+                </div>
+                <div id="nine" style="color: white;">Can BC Shetty & co assist in hiring qualified accounting staff?
+                </div>
+                <div id="ten" style="color: white;"> Can BC Shetty & Co help in detecting fraud in my organization?
+                </div>
+                <div id="eleven" style="color: white;"> Can BC Shetty & co help in implementing risk controls or
+                    internal controls? </div>
+            </div>
+        </section>
+        <br>
+        <br>
+
+        <br>
+
+        <!-- ============================================================================================================================= -->
+
+        <!-- ================================================================recive========================================================= -->
+        <section>
+            <center style="font-size: 28px; color: blue;">
+                <div> RECIVE OUR NEWS MONTHLY BY E-MAIL </div>
+            </center>
+
+            <center>
+                <div> Once a month we'll send you an email packed full of essential business news and handy tax tips to
+                    help
+                    save you money </div>
+            </center>
+            <br>
+            <br>
+
+            <center>
+                <div id="sub"><a style="text-decoration: none;" href="">subscribe</a></div>
+            </center>
+
+
+        </section>
+        <br>
+        <br>
+
+        <!-- ----------=================================================================================================================== -->
+        <br>
+        <br>
+
+        <br>
+
+        <!-- ======================================================contact============================================================= -->
+        <section id="contact">
+            <div id="sto1">
+                <div>
+                    <img src="https://bcshettyco.com/new-assets/images/logo.svg" width="250px" alt=""><br>
+                    <p style="text-align: justify;"> BC Shetty & Co is CA firms in Bangalore for<br> accounting and
+                        bookkeeping services.
+                        The <br>firm has the most reliable chartered <br>accountants in Bangalore who will offer
+                        you<br>
+                        the
+                        best services.
+                        You can also rely on their<br> chartered accountants for transfer pricing <br> advisory
+                        services
+                    </p>
+                </div>
+                <div>
+                    <div style="font-size: 20px; color: rgba(48, 70, 196, 0.812);">OUR SERVICES</div><br>
+                    Ultimate Tax guide<br>
+                    Invest in India<br>
+                    Zoho Migration<br>
+                    Transfer Pricing<br>
+                    Ind AS Implementation<br>
+                    GST Registration<br>
+                    Tax Consulting<br>
+                    <br>
+                    <br>
+                    <br>
+
+                </div>
+                <div>
+                    <div style="font-size: 20px; color: rgba(48, 70, 196, 0.812);"> CONTACT US </div><br>
+                    <br>
+                    Shiva Shankara<br>
+                    Client Engagement Manager
+                    <div><i class="fa-solid fa-phone"></i>7389834002</div>
+                    <div><i class="fa-solid fa-square-envelope"></i>anuragpandey8056@gmail.com</div>
+                </div>
+                <br>
+                <div>
+                    <div style="font-size: 20px;  color: rgba(48, 70, 196, 0.812);">CARRER </div><br>
+                    <br>
+                    Sunita Biswal
+                    HR<br>
+                    <div><i class="fa-solid fa-phone"></i>+91 8197981450</div>
+                    <div><i class="fa-solid fa-square-envelope"></i> career@bcshettyco.com</div>
+                    <bt>
+                        To know about current openings!
+                </div>
+                <br>
+
+                <div>
+                    <div style="font-size: 20px; color: rgba(48, 70, 196, 0.812);"> FOLLOW US </div><br>
+                    <a href="https://www.instagram.com/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/home?lang=en-in"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-square-youtube"></i></a>
+                    <a href="https://www.quora.com/"><i class="fa-brands fa-quora"></i></a>
+
+                    <div style="font-size: 20px; color: rgba(48, 70, 196, 0.812);">HEAD OFFICE</div><br>
+
+                    <div>No. 78, Sai Sharan Heights, 5th<br> Floor,
+                        Above ICICI Bank, 15th Cross,<br> Margosa
+                        Road, MES College Road,<br> Malleshwaram,Bangalore - 560003</div>
+                </div>
+                <div>
+                    <div style="font-size: 20px;color: rgba(48, 70, 196, 0.812);">OUR BENCHES</div>
+                    <br>
+                    <div>
+                        <div><a><i class="fa-solid fa-location-dot"></i></a> Malleshwaram, Bangalore
+                        </div>
+                        <div><a><i class="fa-solid fa-location-dot"></i></a> Whitefield,Bangalore</div>
+                        <div><a><i class="fa-solid fa-location-dot"></i></a> Hubli</div>
+                        <div><a><i class="fa-solid fa-location-dot"></i></a> Mysore</div>
+                        <div><a><i class="fa-solid fa-location-dot"></i></a> Udupi</div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+
+
+        </section>
+        <section id="last">
+            <div id="lastone">
+                &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <div style="margin-right: 90px;">
+                    <img src="https://bcshettyco.com/new-assets/images/mgi-logo.png" alt="">
+                </div>
+                <div>
+                    MGI Worldwide is a network of independent accounting, legal and consulting firms. MGI Worldwide does
+                    not
+                    provide any services
+                    and its<br> member firms are not an international partnership. Each member firm is a separate entity
+                    and
+                    none of MGI Worldwide,
+                    MGI Ltd., nor any<br> member firm accepts responsibility for the activities, work, opinions or
+                    services
+                    of any other member firm.
+                    For more information visit<br> www.mgiworld.com/legal<br>
+                    <br>
+                    <br>
+                    <br>
+
+                </div>
+            </div>
+        </section>
+
+        <center>
+            <div>
+                Copyright B.C Shetty & Co. © 2023. All Rights Reserved. Privacy Policy , Terms and Conditions
+            </div>
+        </center>
+
+
+    </section>
+    <script src="index.js"></script>
+</body>
+
+</html>

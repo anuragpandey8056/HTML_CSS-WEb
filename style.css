@@ -1,0 +1,500 @@
+*{
+    scroll-behavior: smooth;
+    
+}
+
+#html{
+    overflow-x: hidden;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+}
+/* ==========================================================================up====================================== */
+#up{
+    display: flex;
+    margin-right: 50px;
+    align-items: center;
+    overflow-x: hidden;
+    z-index: 1;
+}
+#up #cornor{
+    margin-right: 800px;
+}
+#up #right{
+    padding: 10px 0px 10px 0px ;
+    
+}
+#search{
+    padding: 10px 0px 10px 0px ;
+
+}
+
+/* ======================================================================================================== */
+
+
+/* ======================================================================enquire now=============================== */
+#pos{
+    border: 2px solid white;
+    width: 140px;
+    padding: 10px 0px 10px 0px;
+    font-size: 18px;
+    background-color:   rgba(48, 70, 196, 0.812);
+    color: white;
+    border-radius: 5px;
+    rotate: 90deg;
+    position: fixed;
+    top: 400px;
+    right: -50px;
+    z-index: 10;
+    overflow-x: hidden;
+
+}
+#pos a{
+    text-decoration: none;
+}
+#pos:hover{
+    background-color: aqua;
+    color: black;
+}
+/* ============================================================================================================================== */
+
+.mainnav {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    background-color: rgba(44, 189, 237, 0.812);
+    padding: 20px 0px 20px 0px;
+    align-items: center;
+    margin-top: 0px;
+    color: white;
+    margin-bottom: 4px;
+    position:sticky;
+    top: 0px;
+    z-index: 10;
+    overflow-x: hidden;
+    border-bottom: 5px solid white;
+}
+
+.mainnav li ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: right;
+
+
+}
+.mainnav li ul li a{
+    text-decoration: none;
+    list-style-type: none;
+}
+#bars{
+    display: none;
+}
+
+
+ @media(max-width:786px){
+    .mainnav{
+        display: block;
+        margin-left: -400px;
+        width: 275px;
+        position: absolute;
+        top: 75px;
+        background-color: aqua;
+       
+    }
+    .mainnav li ul{
+        display: block;
+
+    }
+    #bars{
+        display: block;
+    }
+    #cha:checked~.mainnav{
+        margin-left: 0px;
+        transition: margin-left 1.5s;
+    background-color: rgba(44, 189, 237, 0.812);
+
+
+    }
+    } 
+
+/* ==========================================================images========================================= */
+#image {
+    padding: 0px 0px 300px 0px;
+    background-image: url(https://bcshettyco.com/new-assets/images/banner-img.png);
+    background-size: 100%;
+    color: white;
+    font-size: 32px;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+@media(max-width:1024px){
+    #image{
+    background-image: url(https://bcshettyco.com/new-assets/images/banner-img.png);
+     
+    padding: 0px 0px 0px 0px;
+     margin-bottom: 10px;
+      
+    }
+}
+    @media(max-width:1200px){
+    #image{
+        background-image: url(https://bcshettyco.com/new-assets/images/banner-img.png);
+         
+        padding: 0px 0px 0px 0px;
+         margin-bottom: 10px;
+          
+        }
+}
+@media(max-width:768px){
+    #image{
+        background-image: url(https://bcshettyco.com/new-assets/images/banner-img.png);
+        width: 100%;
+        height: 100%;
+        padding: 0px 0px 0px 0px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+          
+        }
+}
+
+
+/* ============================================================================================================= */
+
+/* =======================================================================about================================================ */
+#about {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(48, 70, 196, 0.812);
+    color: white;
+    overflow-x: hidden;
+}
+@media(max-width:768px){
+    #about{
+        display: block;
+        padding: 200px 0px 0px 0px;
+        margin-top: 0px;
+    }
+}
+@media(max-width:426px){
+    #about{
+        margin: 0px;
+        padding-top: 0px;
+    }
+    
+}
+/* ========================================================explore our services=============================== */
+#services #first{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+}
+
+
+
+/* ======================================================services========================================================= */
+
+#services{
+    overflow-x: hidden;
+
+}
+@media(max-width:768px){
+    #services #first{
+        display:grid;
+        grid-template-columns: auto auto;
+    }
+}
+@media(max-width:426px){
+    #services #first{
+        display:grid;
+        grid-template-columns: auto;
+    }
+}
+
+
+/* =================================================================industries we serve ================================== */
+#serve {
+    display: block;
+    justify-content: space-evenly;
+    background-color: rgba(48, 70, 196, 0.812);
+    padding:0px 0px 50px 0px;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+#serve .we {
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+#serve1 {
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+
+}
+
+
+
+@media(max-width:1024px){
+    #serve1{
+        display:grid;
+        grid-template-columns: auto auto;
+
+ }
+}
+@media(max-width:768px){
+    #serve1{
+        display:grid;
+        grid-template-columns: auto auto;
+
+ }
+}
+@media(max-width:426px){
+    #serve1{
+        display:grid;
+        grid-template-columns: auto;
+
+ }
+}
+/*=====================================================================technology we serve==========================================*/
+#Technology{
+    padding-bottom: 100px;
+    overflow-x: hidden;
+}
+#Technology #div1 img{ 
+    margin: 50px;
+    justify-content: space-evenly;
+    
+
+}
+/* ============================================================================testimonial==================== */
+#tes #all{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+#tes{
+    background-color: rgb(246, 244, 230);
+    padding: 50px 0px 50px 0px;
+}
+
+
+
+/* ======================================================latest news==================================================================== */
+#latest{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px 0px 150px 0px;
+    align-items: center;
+    background-color: rgba(48, 70, 196, 0.812) ;
+    overflow-x: hidden;
+}
+#latest #firstimg img{
+  background-size: cover;
+}
+@media(max-width:768px){
+    #latest{
+        display:grid;
+        grid-template-columns: auto;
+      
+
+ }
+}
+@media(max-width:321px){
+    #latest{
+        display:grid;
+        grid-template-columns: auto;
+      
+
+ }
+}
+
+/* ========================================News letter============================================================================== */
+#news{
+    margin: 50px;
+    background-color: rgba(48, 70, 196, 0.812) ;
+    padding: 50px 100px 50px 100px;
+}
+#news #newsimage{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.one{
+    border: 2px solid blueviolet;
+    padding: 100px 100px 175px 100px;
+    background-image: url(https://bcshettyco.com/img/2024/DUTIES-AND-RESPONSIBILITIES-OF-A-DIRECTOR-IN.png);
+    background-size: 175px;
+    background-repeat: no-repeat;
+    width: 200px;
+    justify-content: right;
+
+}
+.two{
+    border: 2px solid blueviolet;
+    padding: 100px 100px 175px 100px;
+    background-image: url(https://bcshettyco.com/img/2024/GSTR-9-banner.png);
+    background-size: 175px;
+    background-repeat: no-repeat;
+    width: 200px;
+
+
+    
+}
+.three{
+    border: 2px solid blueviolet;
+    padding: 100px 100px 175px 100px;
+    background-image: url(https://bcshettyco.com/img/2024/SaaS_Companies_banner.png);
+    background-size: 175px;
+    background-repeat: no-repeat;
+    width: 200px;
+
+}
+/* ===========================================================AFFliCATION+++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+#affi .af img{
+justify-content: space-evenly;
+margin: 75px;
+
+}
+#affi{
+    background-color: rgb(246, 244, 230);
+    padding: 20px 0px 0px 0px;
+
+}
+/* ==============================================================FREQUENTLY======================================================== */
+#freq{
+    background-color:rgba(48, 70, 196, 0.812) ;
+    padding: 100px 0px 100px 0px;
+}
+#four{
+    border: 1px solid white;
+    padding: 20px 20px 10px 20px;
+    margin: 10px;
+    font-size: 18px;
+
+}
+#five{
+    border: 1px solid white; 
+    padding: 20px 20px 10px 20px;
+    margin: 10px;
+    font-size: 18px;
+
+
+
+
+}
+#six{
+    border: 1px solid white;
+    padding: 20px 20px 10px 20px;
+    margin: 10px;
+    font-size: 18px;
+
+
+
+}
+#seven{
+    border: 1px solid white;
+    padding: 20px 20px 10px 20px;
+    margin: 10px;
+    font-size: 18px;
+
+
+
+}
+#eight{
+    border: 1px solid white;
+    padding: 20px 20px 10px 20px;
+    margin: 10px;
+    font-size: 18px;
+
+
+
+}
+#nine{
+    border: 1px solid white;
+    padding: 20px 20px 10px 20px;
+    margin: 10px;
+    font-size: 18px;
+
+
+
+}#ten{
+    border: 1px solid white;
+    padding: 20px 20px 10px 20px;
+    margin: 10px;
+    font-size: 18px;
+
+
+
+}#eleven{
+    border: 1px solid white;
+    padding: 20px 20px 10px 20px;
+    margin: 10px;
+    font-size: 18px;
+
+
+
+}
+/* ====================================================recive============================================================= */
+#sub{
+    border: 2px solid white;
+    width: 90px;
+    padding: 10px 10px 10px 10px;
+    background-color:rgba(48, 70, 196, 0.812) ;
+    color: white;
+    border-radius: 10px;
+}
+#sub:hover{
+    background-color: brown;
+}
+/* =================================================================contact ============================================= */
+#contact #sto1{
+display: grid;
+grid-template-columns: auto auto auto auto auto;
+    
+}
+#lastone{
+    display: flex;
+    border-bottom: 2px solid black;
+}
+#contact{
+    background-color: beige;
+    padding: 10px 0px 0px 0px ;
+    overflow-x: hidden;
+}
+#last{
+    background-color: beige;
+    overflow-x: hidden;
+
+}
+@media(max-width:768px){
+    #contact #sto1{
+        display:grid;
+        grid-template-columns: auto auto;
+        align-items: center;
+    
+      
+
+ }
+}
+@media(max-width:426px){
+    #contact #sto1{
+        display:grid;
+        grid-template-columns: auto;
+        
+      
+
+ }
+}
+@media(max-width:426px){
+    #lastone{
+        display:grid;
+        grid-template-columns: auto;
+        
+      
+
+ }
+}
